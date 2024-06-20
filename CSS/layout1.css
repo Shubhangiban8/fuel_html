@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    width: 90%;
+    min-height: 100px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 2px solid #000;
+}
+
+.logo{
+    width: 100%;
+    min-height: 450px;
+    background-image: url("..//images/china_food.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.head{
+    color: white;
+    float: left;
+    font-family:cursive;    
+    display: flex;
+    width: 30%;
+}
+
+.head h1{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.menu {
+    padding: 25px;
+    float: right;
+    width: 70%;
+    
+}
+.menu a{
+    padding: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    
+}
+
+ h1{
+    margin-top: 5px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: cursive;
+}
+
+.main{
+    width: 100%;
+    min-height: 280px;
+    padding-top: 20px;
+    margin-top: 5px;
+    display: inline-flex;
+    gap: 30px;
+}
+
+.box img
+{
+    width: 300px;
+    min-height: 250px;
+    margin-left: 45px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+
+}
+
+.box1 img
+{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+
+}
+
+.box2 img
+{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+
+   
+}
+
+
+.box3 img
+{
+    width: 300px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+   
+}
+
+.main1{
+    width: 100%;
+    min-height: 150px;
+    display: flex;
+    gap: 30px ;
+}
+
+
+.box01{
+    width: 300px;
+    height: 100px;
+    margin-left: 44px;
+    box-sizing: border-box;
+    border: 1px;
+}
+.box01 h3
+{
+    text-align: center;
+}
+
+.box01 p{
+    text-align: justify;
+}
+
+.box11{
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+.box11 h3
+{
+    text-align: center;
+}
+
+
+.box11 p{
+    text-align: justify;
+}
+
+.box12{
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px ;
+}
+
+.box12 h3
+{
+    text-align: center;
+}
+
+
+.box12 p{
+    text-align: justify;
+}
+
+.box13{
+    width: 300px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px ;
+}
+
+
+.box13 h3
+{
+    text-align: center;
+}
+
+
+.box13 p{
+    text-align: justify;
+}
+
+.main2{
+    width: 100%;
+    min-height: 150px;
+    padding-top: 20px;
+    margin-top: 20px;
+    display: flex;
+    gap: 60px;
+}
+
+
+.l1{
+    width: 200px;
+    margin-left: 200px;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+
+.l1 img{   
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+
+   
+}
+
+.l2{
+    width: 240px;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+
+.l2 img{
+
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+
+.l3{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px;
+}
+
+.l3 img{
+   
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+.l4{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px ;
+}
+
+.l4 img{
+       width: 50px;
+    height: 50px;
+    margin-left: 20px;
+
+}
+
+.about{
+    width: 100%;
+    min-height: 200px;
+    padding-top: 5px;
+    margin-top: 5px;
+    display: flex;
+    gap: 3%;
+}
+
+.us{
+    width: 47%;
+    min-height: 250px;
+    box-sizing: border-box;
+    border: 1px ;
+}
+
+.us p{
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.photo{
+    width: 50%;
+    min-height: 100px;
+    box-sizing: border-box;
+    border: 1px;
+    
+}
+.photo img{
+
+    width: 100%;
+}
+
+.footer
+{
+    width: 100%;
+    min-height: 200px;
+    padding-top: 10px;
+    display: flex;
+    gap: 80px;
+    margin-top:10px ;
+}
+
+.f1 img{ 
+    width:220px;
+    min-height:200px;
+    margin-left: 280px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+}
+
+
+.f2 img{ 
+    width:220px;
+    min-height:200px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+}
+
+
+.f3 img { 
+    width:220px;
+    min-height:200px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+
+}
+
+

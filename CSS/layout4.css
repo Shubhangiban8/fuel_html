@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+
+    width: 80%;
+    min-height: 100px;
+    margin: auto;
+}
+
+.fase1{
+    width: 100%;
+    height: 60px;
+}
+
+.fase1 .logo{
+
+    width: 49%;
+    height: 60px;
+    background-color: #494736;
+    float: left;
+    border-radius: 15px;
+    -o-border-radius:15px;
+    -ms-border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+}
+
+.logo h1{
+    color: white;
+    padding: 5px;
+}
+
+.fase1 .menu{
+    width: 50%;
+    height: 60px;
+    background-color: #494736;
+    float: right;
+    padding-top:15px ;
+    border-radius: 15px;
+    -ms-border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+
+}
+
+.menu a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.slider{
+width: 100%;
+min-height: 300px;
+margin-top: 5px;
+}
+
+.slider img{
+    width: 100%;
+    height: 100%;
+
+}
+
+.fase2 {
+    width: 100%;
+    min-height: 300px;
+}
+
+.fase2 .sidebar{
+    width: 20%;
+    min-height: 500px;
+    background-color: #95795D;
+    float: left;
+}
+
+.fase2 .con{
+width: 78%;
+min-height: 300px;
+float: right;
+
+}
+
+.con .answer{
+
+    text-align: justify;
+    padding: 10px;
+}
+
+.con .header{
+    padding: 10px;
+    color: #95795D;
+}
+
+.footer{
+
+    width: 100%;
+    height: 60px;
+    background-color: #494736;
+    color: white;
+    margin-top: 430px;
+    border-radius: 15px;
+    -ms-border-radius:15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+  
+}
+
+clearfix::after{
+    content:"";
+    clear: both;
+    display: block;
+}
+
+
+
+
+

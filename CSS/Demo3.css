@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ground{
+
+    min-height: 620px;
+    width: 100%;
+    padding-top: 10px;
+    background-image: url("..//images/lappi.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+
+.anchor{
+    min-height: 50px;
+    width: 100%;
+    padding-left: 170px;
+    padding-top: 20px;
+
+    position: relative;
+right: 200px;
+
+}
+.anchor a{
+    color: white;
+    text-decoration: none;
+    
+    padding: 30px;
+}
+
+.navhead{
+    display: inline-flex;
+}
+.had{
+    width: 600px;
+
+}
+   
+.anchor a:hover{
+    background-color: rgb(9, 79, 120);
+}
+.anchor button
+{
+background-color: rgb(7, 183, 189);
+color: white;
+width: 100px;
+height: 40px;
+border-color: white;
+
+
+}
+.abc{
+
+        position: relative;
+        left: 750px;
+        bottom: 25px;
+    }
+
+.ground h1{
+        color: white;
+        float: left;
+    }
+
+    .main{
+        min-height: 400px;
+        padding-top: 140px;
+        color: white;
+    }
+
+    
+    .main{
+        padding-left: 130px;
+    }
+    
+    .btn1{
+        color: white;
+        background-color: blue;
+        width: 130px;
+        height: 40px;
+        
+    }
+
+    .btn2{
+        border-color: black;
+        width: 130px;
+        height: 40px;
+        
+    }

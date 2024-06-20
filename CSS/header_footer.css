@@ -1,0 +1,123 @@
+*{
+margin: 0;
+padding: 0;
+}
+.maindiv{
+    margin: auto;
+    width: 90%;
+    border: 3px solid black;
+    min-height: 80px;
+}
+.headerdiv{
+    
+    width: 100%;
+    padding-top: 10px;
+    font-style: italic;
+    color: rgb(43, 91, 157);
+    min-height: 80px;
+    font-size: x-large;
+  
+    background-color: rgb(249, 208, 242);
+}
+.cheaderdiv{
+    padding-top: 7px;
+    float: left;
+    padding-left: 350px;
+}
+.cheaderdiv h1{
+
+}
+.logoheader{
+    float: right;
+}
+.logoheader img{
+    height: 65px;
+    padding-right: 8px;
+}
+.mark{
+    padding: 10px;
+    background-color: rgb(247, 197, 131);
+    min-height: 30px;
+    margin-top: 10px;
+    font-size: xx-larges;
+    font-style: italic;
+}
+
+.menu{
+
+    background-color: aliceblue;
+    min-height: 60px;
+    padding-top: 20px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    padding: 30px;
+    color: rgb(13, 16, 20);
+}
+
+.menu a:hover{
+    background-color: rgb(175, 229, 237);
+}
+
+.imagediv{
+    background-color: bisque;
+    min-height: 500px;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.imagediv img{
+    height: 500px;
+    width: 100%;
+}
+
+.paragraphdiv{
+
+    min-height: 400px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-size: x-large;
+    font-style: italic;
+    text-align: justify;
+}
+
+.paragraphdiv p::first-letter{
+    color: darkorange;
+    font-size: xx-large;
+
+}
+.paragraphdiv p:hover{
+    color: rgb(251, 151, 64);
+    background-color: yellow;
+
+}
+
+.paragraphdiv p::selection{
+
+    background-color: dimgray;
+    color: whitesmoke;
+}
+
+#footer{
+    min-height: 60px;
+    background-color: rgb(252, 205, 246);
+    padding-top: 10px;
+    font-style: italic;
+    
+}
+#footer p{
+    float: left;
+
+}
+
+#footer img{
+    height: 50px;
+    float: right;
+    padding-left: 20px;
+    padding-right: 10px;
+
+}

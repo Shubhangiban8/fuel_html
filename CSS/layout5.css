@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+
+}
+
+.container{
+width: 60%;
+min-height: 100px;
+margin: auto;
+
+}
+
+.main{
+    width: 100%;
+    height: 60px;
+}
+
+.main .logo{
+    width: 29%;
+    height: 60px;
+    float: left;
+    background-color: #291C1D;
+    border-radius: 10px;
+    -ms-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+
+}
+
+.logo h1{
+    color: white;
+    padding: 10px;
+}
+
+
+.main .menu{
+    width: 44%;
+    height: 60px;
+    float: left;
+    background-color: #291C1D;
+    border-radius: 10px;
+    -ms-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+padding-top: 20px;
+}
+
+.menu a{
+
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+.manu a:hover{
+background-color: aliceblue;
+color: white;
+}
+
+.main .link{
+    width: 23%;
+    height: 60px;
+    float: left;
+    background-color: #291C1D;
+    border-radius: 10px;
+    -ms-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+
+}
+
+.main .manu:nth-child(2)
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.links{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.links a{
+color: white;
+padding: 7px;
+font-size: 22px;
+}
+
+
+.slider{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+
+.main-prod{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+}
+
+.main-prod .prod{
+    width: 32%;
+    min-height: 244px;
+    float: left;
+}
+
+.main-prod .prod::nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.main-prod .prod::nth-child(1){
+    margin-left: 5px;
+}
+
+.prod img{
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    height: 60px;
+    background-color: #291C1D;
+    border-radius: 10px;
+    -ms-border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    line-height: 60px;
+}
+
+.clearfix::after
+{
+    content:"";
+    display: block;
+    clear: both;
+}

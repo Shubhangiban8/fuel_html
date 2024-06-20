@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    min-height: 500px;
+    border: 1px;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.box{
+
+    width: 40%;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    margin: auto;
+    padding-top: 2
+    0px;
+    margin-top: 20px;
+
+}
+
+ table ,th ,td{
+    padding-top: 10px;
+    border: 1px solid #000;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-top: 20px;
+ }
+
+th{
+  width: 25%;  
+}

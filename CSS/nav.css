@@ -1,0 +1,31 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: auto;
+    width: 80%;
+    background: linear-gradient(68.6deg, rgb(252, 165, 241) 1.8%, rgb(181, 255, 255) 100.5%);
+    border: 1px solid #000;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+
+}
+
+ul{
+    background-color: rgb(0, 0, 0);
+    list-style: none;
+    margin: auto;
+    padding-top: 5px;
+    
+}
+ul a{
+    text-decoration: none;
+    margin-left: auto;
+    float: left;
+    padding: 10px;
+}

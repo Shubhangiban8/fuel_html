@@ -1,0 +1,9 @@
+.BOX{
+
+    height: 700px;
+    width: 800px;
+    background-color: aqua;
+    color: black;
+    border: 10px solid black;
+
+}

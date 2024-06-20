@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+
+.container{
+
+    width: 90%;
+    min-height:700px;
+    margin-left: 70px;
+    margin-top:20px ;
+    border-radius: 10px;
+    border: 1px solid #000;
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    display: inline-flex;
+   
+}
+
+
+.main1{
+    width:50%;
+    height: 700px;
+    background-color: rgba(255, 0, 0, 0.991);
+    padding-top: 200px;
+    text-align: center;
+    border-radius: 10px;
+    -moz-border-radius:20px ;
+    -webkit-border-radius:20px;
+    
+}
+
+.main1 h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+#p1{
+    color: white;
+    font-size: 1.3em
+
+}
+
+#p2{
+    color: white;
+    font-size: 1.3em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+#btn1{
+    width: 180px;
+    height: 50px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.991);
+    border-radius: 10px;
+    -moz-border-radius:30px ;
+    -webkit-border-radius:30px ;
+    border-color: white;    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.main2{
+    width: 50%;
+    height: 700px;
+    padding-top: 100px;
+    text-align: center;
+
+}
+
+.main2 h1{
+    padding-bottom: 30px;
+}
+
+#logo1{
+    margin-right: 15px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 2.5em;
+    border-color: rgb(203, 203, 203);
+}
+
+#logo2{
+    margin-right: 15px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 2.5em;
+    border-color: rgb(203, 203, 203);
+}
+
+#logo3{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 50%;
+    font-size: 2.5em;
+    
+    border-color: rgb(203, 203, 203);
+}
+
+#p4{
+padding-top: 40px;
+font-size: 1.2em;
+padding-bottom: 20px;
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+padding-left: 120px;
+padding-right: 120px
+}
+
+
+#nm1{
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-color: transparent;
+    background-color: rgb(247, 247, 247);
+}
+#email{
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-color: transparent;
+    background-color: rgb(247, 247, 247);
+
+}
+
+#pswd{
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-color: transparent;
+    background-color: rgb(247, 247, 247);
+
+}
+
+#btn2{
+    background-color: rgba(255, 0, 0, 0.991);
+    color:white ;
+    width: 180px;
+    margin-left: 140px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: transparent;
+    font-size: 1.1em;
+}

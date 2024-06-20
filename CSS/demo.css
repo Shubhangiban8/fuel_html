@@ -1,0 +1,35 @@
+.th{
+    h2{
+        background-color: antiquewhite;
+        color: black;
+    }
+    p{
+        color: black;
+        background-color: antiquewhite;
+
+    }
+}
+
+.th1{
+    h2{
+        background-color: rgb(240, 240, 151);
+        color: rgb(221, 71, 71);
+    }
+    p{
+        background-color: rgb(240, 240, 151);
+        color: rgb(221, 71, 71);
+
+    }
+}
+
+.th2{
+
+    h2{
+        background-color: blanchedalmond;
+        color: chocolate;
+    }
+    p{
+        background-color: blanchedalmond;
+        color: chocolate;
+    }
+}
