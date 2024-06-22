@@ -15,7 +15,7 @@
 .main-header{
     width: 100%;
     min-height: 500px;
-background-image: url("..//images/black.jpg");
+background-image: url("..//images/blackdot.avif");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 
@@ -27,6 +27,7 @@ background-size: 100% 100%;
     background-color:white;
     display: inline-flex;
     }
+
 
 .logos{
     width: 60%;
@@ -56,13 +57,14 @@ background-size: 100% 100%;
 .main1{
     width: 100%;
     height: 100px;
+        display: inline-flex;
 
 }
 
 .name{
-    width: 30%;
+        width: 40%;
     height: 80px;
-    padding-left: 30px;
+    padding-left: 50px;
     padding-top: 14px;
 }
 .name  h1{
@@ -79,17 +81,307 @@ background-size: 100% 100%;
 .menu ul li{
     float: left;
     list-style: none;
-    padding-top: 14px;
+    padding-top: 18px;
 }
 
 .menu ul li a{
     text-decoration: none;
     color: white;
-    padding: 15px;
+    padding: 30px;
     font-size: 1.3em;
 }
 
+ul li a:hover{
+    background-color: royalblue;
+}
+
 .menubutton{
-    width: 20%;
+    width: 15%;
     height: 80px;
+    padding-top: 18px;
+}
+
+.menubutton button{
+    width: 100px;
+    height: 40px;
+    background-color: transparent; 
+    border-color: white; 
+    color: white;  
+}
+
+.head1{
+    width: 100%;
+    height: 70px;
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.head1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 6px;
+}
+
+.box
+{
+    width: 100%;
+    min-height: 300px;
+    box-sizing: border-box;
+    border: 1px;
+    margin: auto;
+    margin-top: 60px;
+    display: inline-flex;
+    gap: 40px;
+    padding-left: 130px;
+}
+
+.box1{
+    width: 400px;
+    height: 260px;
+    box-sizing: border-box;
+    border: 1px ;
+    background-color:rgb(240, 239, 239);
+    text-align: center;
+    padding-top: 50px;
+}
+
+#logo4
+{
+width: 50px;
+height:50px;
+margin-bottom: 10px;
+}
+
+.box #p1{
+    color: rgb(109, 108, 108);
+    padding-top: 12px;
+    font-size: 1.3em;
+}
+.box2{
+    width: 400px;
+    height: 260px;
+    box-sizing: border-box;
+    border: 1px ;
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.box3{
+    width: 400px;
+    height: 260px;
+    box-sizing: border-box;
+    border: 1px ;
+    background-color: rgb(240, 239, 239);
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.main2{
+    width: 83%;
+    min-height: 600px;
+    box-sizing: border-box;
+    border: 1px ;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.office{
+    width: 50%;
+    height: 530px;
+    float: left;
+    background-color: antiquewhite;
+
+}
+.office #pic{
+    width: 100%;
+    height: 100%;
+}
+
+.form{
+    width: 50%;
+    min-height: 500px;
+    float: right;
+    padding: 30px;
+    padding-left: 60px;
+
+}
+
+#col{
+    color:royalblue;
+    
+}
+
+#fnm , #lnm{
+    width: 250px;
+    height: 45px;
+    margin-top: 30px;
+    font-size: 1em;
+    border-color: rgb(209, 207, 207);
+    border-left:none;
+    border-top: none;
+}
+
+#email ,#phone {
+    width: 505px;
+    height: 45px;
+    margin-top: 25px;
+    font-size: 1em;
+    border-color: rgb(209, 207, 207);
+    border-left:none;
+    border-top: none;
+}
+
+#msg{
+    width: 505px;
+    height: 100px;
+    margin-top: 25px;
+    font-size: 1em;
+    border-color: rgb(209, 207, 207);
+}
+
+#btn{
+    margin-top: 20px;
+    width: 160px;
+    height: 40px;
+    color: white;
+    background-image: linear-gradient(30deg, #1A2980,#26D0CE);
+    border: transparent;
+}
+
+.main3{
+    width: 100%;
+    min-height:300px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    background-image: url("..//images/work1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 200%;
+    opacity: 0.6;
+    
+}
+
+
+.main3-header{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    
+
+
+}
+
+.main3-header #p2{
+    font-size: 2em;
+    color:rgb(3, 3, 3) ;
+    float: left;
+}
+
+#btn2{
+    width: 150px;
+    height: 60px;
+    float: right;
+    background-color: transparent;
+
+}
+
+.main4{
+    width: 100%;
+    min-height: 350px;
+    background-color:black;
+    display: inline-flex;
+}
+
+.main4-box{
+    width: 30%;
+    min-height: 350px;
+    color: white;
+    padding-top: 90px;
+    padding-left: 50px;
+}
+
+.main5{
+    width: 70%;
+    min-height: 350px;
+    box-sizing: border-box;
+    display: inline-flex;
+    gap: 10px;
+    margin-top: 30px;
+
+}
+
+.main5-box1{
+    width: 300px;
+    height: 300px;
+    padding-left: 80px;
+    margin-top: 30px;
+    color: white;
+
+}
+
+.main5-box1 ul li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.main5-box1 ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+ul li a:hover{
+color: black;
+background-color: azure;
+}
+
+.main5-box2{
+    width: 300px;
+    height: 300px;
+    color: white;
+    margin-top: 30px;
+    padding-left: 30px;
+    
+}
+
+.main5-box2 ul li{
+    list-style-type: none;
+    padding-top: 20px;
+}
+.main5-box2 ul li a{
+    text-decoration: none;
+    color: royalblue;
+}
+
+ul li a:hover{
+color: black;
+background-color: azure;
+}
+
+.main5-box3{
+    width: 300px;
+    height: 300px;
+    margin-top: 30px;
+    color: white;    
+}
+
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+.footer a{
+    padding: 30px;
+    font-size: 1.3em;
+    text-decoration: none;
+    color: rgb(54, 91, 202);
 }
