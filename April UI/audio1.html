@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .box
+        {
+            width: 100%;
+            min-height: 100vh;
+            position:relative;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        nav{
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+        }
+
+        nav .logo{
+            width: 80px;
+        }
+
+        nav ul li{
+            list-style-type: none;
+            display: inline-block;
+            margin-left: 30px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1.5em;
+            padding: 10px;
+        }
+
+        .content{
+            text-align: center;
+        }
+
+        .content h1{
+            color: white;
+            font-size: 3em;
+            font-weight: 600;
+        }
+
+        .content h1:hover{
+             -webkit-text-stroke-color: rgb(5, 109, 74);
+             -webkit-text-stroke-width: 2px;
+             -webkit-text-fill-color: transparent;
+        }
+
+        .content a{
+            text-decoration: none;
+            padding: 12px 7px;
+            display: inline-block;
+            margin-top:30px ;
+            border: 1px;
+            border-radius: 20px;
+            background-color: rgb(93, 135, 93);
+            color: #f8f1f1;
+            font-size: 2em;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        .content a:hover{
+            color:white;
+            background-color: transparent;
+        }
+
+        .mom-vdo{
+            right: 0;
+            bottom: 0;
+            position: absolute;
+            width: 100%;
+            z-index: -1;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+        <div class="box">
+            <video autoplay loop plays-inline class="mom-vdo">
+                <source src="..//Videos/mom1.mp4" type="video/mp4">
+            </video>
+
+            <nav>
+                <img src="..//images/bluecall.webp" class="logo" alt="">
+
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="content">
+                <h1>MOM-DAUGHTER</h1>
+                <a href="">Read More</a>
+            </div>
+        </div>
+</body>
+</html>

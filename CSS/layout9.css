@@ -264,7 +264,7 @@ margin-bottom: 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 200%;
-    opacity: 0.6;
+    filter: brightness(25%);
     
 }
 
@@ -283,6 +283,7 @@ margin-bottom: 10px;
     font-size: 2em;
     color:rgb(3, 3, 3) ;
     float: left;
+    
 }
 
 #btn2{

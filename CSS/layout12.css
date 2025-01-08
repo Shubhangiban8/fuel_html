@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width: 80%;
+    min-height: 300px;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.main-header{
+width: 100%;
+height: 80px;
+background-color:rgb(101, 98, 105);
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.logo{
+    flex-basis: 48%;
+    padding: 15px;
+    color: white;
+}
+
+.menu ul li{
+    display: inline-block;
+    flex-direction:row;
+    padding-top: 30px;
+    font-size: 1.2em;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: #fcfbfb;
+    background-color: rgb(13, 13, 14);
+}
+
+.slider{
+width: 100%;
+display: flex;
+margin-top: 10px;
+flex-direction: row;
+}
+
+.slider img{
+    width: 100%;
+    height: 450px;
+}
+
+.main{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 1%;
+    position:relative;
+}
+
+.main .sidebar{
+display: flex;
+flex-basis: 30%;
+background-image: url("..//images/work1.webp");
+background-size: 100% 100%;
+}
+
+.main .infobar{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 67%;
+    position: relative;
+    overflow: scroll;
+    font-size: 1.3em;
+    text-align: justify;
+
+}
+
+.infobar h1{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.image{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.infobar img{
+    width: 190px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+    background-color: rgb(82, 81, 84);
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 15px;
+}
+
+.footer img{
+    
+    width: 40px;
+    height: 40px;
+
+}
+

@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    min-height: 750px;
+    border: 1px solid #08941a;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-radius-border:15px;
+    background-color: #78f4ba;
+    margin: auto;
+}
+
+.box{
+width:80%;
+min-height: 570px;
+box-sizing: border-box;
+border: 1px solid #fff;
+border-radius: 150px;
+-webkit-border-radius:15px;
+-moz-border-radius:15px;
+margin: auto;
+margin-top: 80px;
+background-color: #fff;
+box-shadow: #08941a;
+}
+
+.pic
+{
+    width: 30%;
+    height: 570px;
+    border-radius: 15px;
+    -webkit-border-radius:15px;
+    -moz-border-radius:15px;
+    background-image: url("..//images/cam.jpg");
+    position: absolute;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.form
+{
+    width: 60%;
+    height: 500px;
+    float: right;
+    padding-left: 100px;
+    padding-top: 30px;
+
+}
+
+.form #h1{
+    color: #78f4ba;
+    padding-left:150px ;
+    padding-bottom: 10px;
+}
+
+.form h5{
+    padding-left: 125px;
+    padding-bottom: 30px;
+}
+
+#usnm ,#mail, #city ,#des {
+    margin-left: 50px;
+    width: 270px;
+    height: 35px;
+    background-color: rgb(243, 243, 243);
+    border: none;
+    font-size: 1.2em;
+    outline: transparent;
+}
+#dob{
+    margin-left: 35px;
+    width: 270px;
+    height: 35px;
+    background-color: rgb(243, 243, 243);
+
+}
+
+#city{
+    margin-left: 90px;
+    background-color: rgb(243, 243, 243);
+}
+
+#mail {
+    margin-left: 80px;
+    background-color: rgb(243, 243, 243);
+}
+
+.form ul li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.form ul li a{
+    text-decoration: none;
+    padding: 30px;
+    color: #78f4ba;
+    font-size: 1.2em;
+
+}
+
+.form ul li a:hover{
+    background-color: #78f4ba;
+    color: #000;
+}
+
+#can{
+    width: 150px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: rgb(67, 67, 67);
+    margin-left: 80px;
+    color: white;
+    border: none;
+}
+
+#sub{
+    width: 150px;
+    height: 40px;
+    font-size: 1.2em;
+    margin-left: 20px;
+    background-color: #78f4ba;
+    color: #fff;
+    border: none;
+}

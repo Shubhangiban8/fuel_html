@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Playwrite CL", cursive;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 500px;
+    border: 1px solid #000;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-image: linear-gradient(60deg,#e0d20b,#b14b32,#087f6d),url("..//images/ganesg1-removebg-preview.png"); 
+    background-repeat: no-repeat;
+    background-blend-mode: screen;  
+
+
+}
+
+.main
+{
+   width: 80%;
+   height: 150px;
+   margin-top: 10px; 
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+.main2{
+    width: 100%;
+    min-height:200px ;
+    display: flex;
+    align-content: center;
+    margin-top: 20px;
+    margin-top: 100px;
+
+}
+
+.first{
+width: 13%;
+height: 100%;
+
+}
+
+.main21{
+    width: 40%;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    
+    padding-top: 100px;
+
+}
+
+.main21 p{
+    font-size: 4em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.main22{
+    width: 40%;
+    min-height: 200px;
+
+}
+
+.main22 img{
+    width:900px;
+    height: 600px;
+}
+
+
+.second{
+    width: 13%;
+    height: 100%;
+}
+
+
+
+.first img , .second img{
+    width: 200px;
+ border-radius: 50%;
+    height: 200px;
+}
+
+
+
+.font{
+   color: red;
+   font-size: 30px;
+
+}
